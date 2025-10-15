@@ -75,6 +75,9 @@ Sent: {"cpu": 4.5, "ram_used": 8076, "ram_total": 12012, "disk_used": 202, "disk
 - Pilih Options > Remote Web server > Klik Authentication 
 - Masukan id : admin , pw: lhm , ok
 
-2. buka link ini http://10.214.217.152:8085/ , masukan id : admin dan pw : lhm 
+2. buka link ini (contoh ip) (sesuaikan dengan ip kalian) http://10.214.217.152:8085/ , masukan id : admin dan pw : lhm 
+- Cek ip di CMD , Ketik ipconfig
 
 3. buka ini juga http://10.214.217.152:8085/data.json , masukan id : admin dan pw : lhm , selesai
+
+4.Jangan lupa edit isi file task_monitor_ble.py, sesuaikan dengan port yang disediakan oleh Libre Hardware Monitor
