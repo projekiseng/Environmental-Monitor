@@ -1,0 +1,80 @@
+============================ Cara Instalasi Task Manager ==============================
+
+1. Buat file Python
+- Buat file Bernama " task_monitor_ble.py " , save as
+- Simpan di Desktop supaya mudah diakses
+
+2. Install Pyton
+- Jika belum punya, download dan install dari: https://www.python.org/downloads/
+- Saat instalasi, centang opsi “Add Python to PATH”
+
+3. Cek instalasi Python
+- Buka Command Prompt (CMD), ketik: python --version
+- Jika muncul versi Python (misal Python 3.11.5), berarti sudah OK.
+
+4. Install library tambahan Python
+- Di CMD, ketik: - pip install pyserial pynmea2
+		 - pip install bleak psutil requests
+- Library ini diperlukan untuk komunikasi BLE, monitoring sistem, dan HTTP ke LibreHardwareMonitor. 
+
+5. Buka CMD dengan hak administrator
+- Klik Start → ketik cmd → klik kanan → Run as Administrator.
+
+6. Akses folder Desktop
+- Jalankan perintah: cd C:\Users\<username>\OneDrive\Desktop 
+- Ganti <username> dengan username Windows kamu.
+- Atau bisa langsung klik kanan di Desktop → Open in Terminal. 
+
+7. Cek file Python
+- Ketik: dir
+- Pastikan task_monitor_ble.py muncul di daftar.
+
+8. Buka akses firewall untuk Python
+- Buka Control Panel → System and Security → Windows Defender Firewall → Allow an app or feature through Windows Defender Firewall
+- Klik Change settings → Allow another app… → Browse…
+- Pilih python.exe dari folder instalasi Python (misal C:\Python311\python.exe)
+- Centang Private & Public
+- Klik Add → OK
+Catatan: Langkah ini supaya Python bisa mengakses BLE dan jaringan lokal tanpa diblokir.
+
+9. Jalankan Task Manager
+- Ketik: python task_monitor_ble.py
+- Pastikan ESP32 Task Manager sudah aktif dan siap menerima data.
+- Jika berhasil, di CMD akan muncul logs seperti:
+[INFO] Scanning for ESP32_TaskManager... 
+[FOUND] ESP32_TaskManager - B0:A7:32:2A:BB:3E
+[CONNECTED] to ESP32
+Sent: {"cpu": 4.5, "ram_used": 8076, "ram_total": 12012, "disk_used": 202, "disk_total": 236, "battery": 33, "temperature": 35.2}
+
+
+
+=============================== Install aplikasi Libre Hardware Monitor =======================
+
+1. Buka LibreHardwareMonitor
+
+2. Klik menu Options → Remote Web Server
+
+3. Centang “Run” + "Interface/Port" (Tidak muncul centang, hanya link) + "Authentication" (Masukan ID & PW sesuai yang ada di dalam file task_monitor_ble.py
+
+4. Pilih Port, default biasanya 8085
+
+5. Jika ingin akses dari komputer lain di jaringan, centang juga “Only local connections” → jangan dicentang, supaya bisa diakses via IP
+
+6. Klik OK atau Apply
+
+7 Pastikan firewall Windows mengizinkan LibreHardwareMonitor untuk lewat jaringan:
+
+8. Sama seperti sebelumnya, buka Allow an app through Windows Defender Firewall
+
+9. Pastikan LibreHardwareMonitor dicentang di Private dan Public
+
+
+
+================================= Saat Ingin Membuka Libre Hardware Monitor lagi =================================
+1. Buka Aplikasi Libre Hardware Monitor
+- Pilih Options > Remote Web server > Klik Authentication 
+- Masukan id : admin , pw: lhm , ok
+
+2. buka link ini http://10.214.217.152:8085/ , masukan id : admin dan pw : lhm 
+
+3. buka ini juga http://10.214.217.152:8085/data.json , masukan id : admin dan pw : lhm , selesai
