@@ -1,4 +1,4 @@
-===================================== INFO UPDATE VERSI 0.5.5 ========================================
+===================================== INFO UPDATE VERSI 0.5.3 ========================================
 Made : 8 Oktober 2025
 Update : 10 Oktober 2025
 
@@ -13,11 +13,8 @@ Update : 10 Oktober 2025
 							5.Temperature, Rata-rata pada CPU
 
 4.Menambahkan Menu "Settings" : 1.Set Max Temp (berfungsi Ketika suhu mencapai batas maximal, Buzzer akan Berbunyi)
-				2.Buzzer Settings : 1.Buzzer : ON/OFF
-						    2.Volume : 125 (default)
-				3.Pressure Calib (Gunanya untuk mengatur Tekanan udaram supaya nanti bisa sinkron dengan ketinggian
-
-5.Menambahkan Altitude (Pengukur Ketinggian)
+				                2.Buzzer Settings : 1.Buzzer : ON/OFF
+						                            2.Volume : 125 (default)
 
 
 Fitur Didalamnya :
@@ -28,7 +25,6 @@ Fitur Didalamnya :
 													2.Humidity			: 0.0%
 													3.Temperature BMP	: 0.0°C
 													4.Pressure			: 0.0 hPa
-													5.Altitude			: 0.0 m
 
 2. Menu Task Manager			: Menampilkan	:	1.CPU				: 0%
 													2.RAM				: 0/0 MB
@@ -41,7 +37,6 @@ Fitur Didalamnya :
 4. Settings						: Menampilkan	:	1.Set Max Temperature
 													2.Buzzer Settings	:	1.Buzzer	: ON/OFF
 																			2.Volume	: 0/255
-													3.Pressure Calibration
 
 5. About 						: Menampilkan	: 	Author				: Ansor Achmad
 													From				: Indonesia
@@ -53,5 +48,5 @@ Fitur Didalamnya :
 													Humidity AHT20		: 0.0%
 													Temperature BMP280	: 0.0C
 													Pressure BMP280		: 0.0hPa
-													Altitude BMP280		: 0.0m
+
 
