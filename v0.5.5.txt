@@ -22,6 +22,8 @@ Update : 10 Oktober 2025
 
 Fitur Didalamnya :
 
+0. Menampilkan Status Taskbar : SD : OK/NO
+
 1. Menu Environmental Monitor	: Menampilkan	:	1.Temperature AHT	: 0.0°C
 													2.Humidity			: 0.0%
 													3.Temperature BMP	: 0.0°C
@@ -52,3 +54,4 @@ Fitur Didalamnya :
 													Temperature BMP280	: 0.0C
 													Pressure BMP280		: 0.0hPa
 													Altitude BMP280		: 0.0m
+
