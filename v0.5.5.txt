@@ -1,0 +1,54 @@
+===================================== INFO UPDATE VERSI 0.5.5 ========================================
+Made : 8 Oktober 2025
+Update : 10 Oktober 2025
+
+1.Mengubah Tampilan awal menu yang sebelumnya Teks biasa, menjadi Ikon
+
+2.Saat melakukan OTA Update, muncul bar dan persentasi 
+
+3.Menambahkan Menu "Task Manager" , Berisi Tentang :	1.CPU sisa berapa %
+							2.RAM yang di pakai
+							3.SSD yang dipakai dan tersisa
+							4.BAT, Status Battery pada Laptop
+							5.Temperature, Rata-rata pada CPU
+
+4.Menambahkan Menu "Settings" : 1.Set Max Temp (berfungsi Ketika suhu mencapai batas maximal, Buzzer akan Berbunyi)
+				2.Buzzer Settings : 1.Buzzer : ON/OFF
+						    2.Volume : 125 (default)
+				3.Pressure Calib (Gunanya untuk mengatur Tekanan udaram supaya nanti bisa sinkron dengan ketinggian
+
+5.Menambahkan Altitude (Pengukur Ketinggian)
+
+
+Fitur Didalamnya :
+
+1. Menu Environmental Monitor	: Menampilkan	:	1.Temperature AHT	: 0.0°C
+													2.Humidity			: 0.0%
+													3.Temperature BMP	: 0.0°C
+													4.Pressure			: 0.0 hPa
+													5.Altitude			: 0.0 m
+
+2. Menu Task Manager			: Menampilkan	:	1.CPU				: 0%
+													2.RAM				: 0/0 MB
+													3.SSD				: 0/0 GB
+													4.BAT (Laptop)		: 0%
+													5.Temperature		: 0.0°C
+
+3. OTA Update
+
+4. Settings						: Menampilkan	:	1.Set Max Temperature
+													2.Buzzer Settings	:	1.Buzzer	: ON/OFF
+																			2.Volume	: 0/255
+													3.Pressure Calibration
+
+5. About 						: Menampilkan	: 	Author				: Ansor Achmad
+													From				: Indonesia
+													Nama Projek			: Enviromental Monitor
+													Firmware Version	: 0.5.5
+													Built				: Oktober 2025
+													SD Card				: OK / Not Found
+													Temperature AHT20	: 0.0C
+													Humidity AHT20		: 0.0%
+													Temperature BMP280	: 0.0C
+													Pressure BMP280		: 0.0hPa
+													Altitude BMP280		: 0.0m
