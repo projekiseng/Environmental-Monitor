@@ -11,4 +11,4 @@ Perangkat ini mampu:
 5. Menampilkan notifikasi suara dengan buzzer yang bisa diatur volumenya
 6. Menyediakan menu navigasi interaktif via tombol arah dan taskbar dinamis di OLED
 
-Proyek ini berfungsi sebagai platform monitoring lingkungan portabel yang bisa diperluas ke aplikasi seperti weather station, data logger, atau environmental scanner.
+Proyek ini berfungsi sebagai platform monitoring lingkungan portabel.
